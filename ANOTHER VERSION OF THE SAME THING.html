@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
         }
+        
         .sans-serif{
             font-family: sans-serif;
         }
@@ -22,20 +23,24 @@
             font-family: sans-serif;
             border-bottom: solid 0.13vw grey;
         }
+        
         #nav-header{
             flex: 1;
             padding-left: 1vw;
             font-size: 2.35vw;
         }
+        
         header li{
             display: inline;
             flex: 2;
             padding: 0vw 1vw 0vw 1vw;
         }
+        
         header ul{
             font-size: 2.35vw;
             padding: 0vw 3vw 0vw 0p;
         }
+        
         header a{
             text-decoration: none;
             color:teal;
@@ -57,29 +62,35 @@
             display: flex;
             flex-direction: row;;
         }
+        
         #articles{
             flex 1;
             padding: 2vw;
         }
+        
         .main-content p{
             width: 90%;
             font-size: 2.1vw;
             text-align: justify;
         }
+        
         .main-content{
             width: 105%;
         }
+        
         .main-content h2,h3{
             display: inline;
             padding: 0vw 3vw 0vw 0vw;
             font-size: 3.75vw;
             font-weight: 300;
         }
+        
         .main-content img{
             margin: 1.5vw 0vw 1.5vw 0vw;
             border: solid 0.15vw;
             width: 93%;
         }
+        
         #main-nav{
             flex: 2;
             padding-top: 0.8vw;
@@ -87,12 +98,15 @@
             font-size: 1.9vw;
             width: 80%;
         }
+        
         #main-nav li{
             list-style-type:none;
         }
+        
         #main-nav a{
             color: teal;
         }
+        
         #main-nav h3{
             flex: 2;
             margin-right: 4.5vw;
@@ -106,6 +120,7 @@
             display: inline;
             padding-right: 2vw;
         }
+        
         .divider{
             border: 0.16vw solid lightgrey;
             padding: 1.4vw;
@@ -114,10 +129,12 @@
             width: 87%;
             font-size: 1.57vw
         }
+        
         .divider a{
             text-decoration: none;
             color: steelblue;
         }
+        
         .divider a:hover{
             text-decoration: underline;
         }
@@ -147,14 +164,17 @@
             .main-content h2,h3{
                 font-size: 3vw;
             }
+            
             .main-content img{
                 width: 90%;
                 height: 50vh;
             }
+            
             .main-content p{
                 font-size: 3.15vh;
                 line-height: 1.5
             }
+            
             #nav-header{
                 font-size: 3vw;
                 padding-bottom: 1.5vh;
@@ -162,18 +182,21 @@
                 text-align: center;
                 font-weight: 340;
             }
+            
             header li,header ul{
                 padding: 0vw 1.1vw 0vh 1.5vw;
                 text-align: center;
                 font-size: 1.9vw;
                 font-weight: 340
             }
+            
             header nav{
                 display: grid;
                 grid-auto-rows: 1fr;
                 padding-bottom: 0vh;
 
             }
+            
             #header{
                 padding: 22.5vh 0vw 22.5vh 0vw;
                 border-bottom: solid 0.11vw;
@@ -184,16 +207,20 @@
             .main-content{
                 width: 105%;
             }
+            
             .main-content h2{
                 font-size: 4.62vw;
                 width: 100%;
             }
+            
             .main-content p{
                 font-size: 3.25vw;
             }
+            
             .main-content h2,h3{
                 padding: 0vw 2vw 0vw 0vw;
             }
+            
             .divider{
             border: 0.16vw solid lightgrey;
             padding: 2vw;
@@ -202,6 +229,7 @@
             width: 87%;
             font-size: 3.25vw
             }
+            
             .main-content img{
                 border: 0.2vw solid;
             }
@@ -209,6 +237,7 @@
             header li{
                 font-size: 3.5vw;
             }
+            
             #nav-header{
                 font-size: 3.5vw;
             }
@@ -216,9 +245,11 @@
             #header{
                 font-size: 7.5vw;
             }
+            
             #main-nav{
                 font-size: 3vw;
             }
+            
             #main-nav h3{
                 font-size: 3.6vw;
             }
@@ -227,49 +258,63 @@
         @media (max-width: 400px){
          
             .main-content{
-                width: 105%;
+                width: 100%;
             }
+            
             .main-content h2{
                 font-size: 8vw;
                 display: block;
             }
+            
             .main-content p{
                 font-size: 4.45vw;
+                width: 100%
             }
+            
             .main-content h3{
                 padding: 0vw 1vw 0vw 0vw;
                 font-size: 5.8vw;
             }
+            
             .divider{
-            border: 0.45vw solid lightgrey;
-            padding: 2vw;
-            margin-top: 5vw;
-            margin-bottom: 5vw;
-            width: 87%;
-            font-size: 3.88vw
+                border: 0.45vw solid lightgrey;
+                padding: 2vw;
+                margin-top: 5vw;
+                margin-bottom: 5vw;
+                width: 95%;
+                font-size: 3.88vw
             }
+            
             .main-content img{
                 border: 0.3vw solid;
+                width: 100%;
+            }
+            
+            header nav{
+                padding: 1.5vh 0vw 1.5vh 0vw;
+                margin: 0vh 0.1vw 0vh 0.1vw;
             }
             
             header li{
                 font-size: 4.1vw;
+                padding-right: 3.25vw;
             }
+            
             #nav-header{
                 font-size: 4.1vw;
+                padding-left: 3.25vw
             }
             
             #header{
                 font-size: 9.5vw;
                 font-weight: 100;
+                padding: 5.75vh 0vw 5.75vh 0vw;
             }
+            
             #main-nav{
-                font-size: 3.6vw;
-                margin-top: 1vw;
-                width: 25%;
-                line-height: 2.5;
                 display: none;
             }
+            
             #main-nav h3{
                 font-size: 4.55vw;
             }
